@@ -26,6 +26,7 @@ body {
 
 .quadro {
   display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(220px, 100%), 1fr));
   gap: var(--espaco-2);
   padding: var(--espaco-2);
 }
