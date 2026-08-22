@@ -58,4 +58,7 @@ article {
   border-left: 4px solid var(--cor-status);
   border-radius: var(--raio);
   padding: var(--espaco-2);
+  display: flex;
+  flex-direction: column;
+  gap: var(--espaco-1);
 }
