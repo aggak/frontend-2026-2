@@ -93,6 +93,20 @@ h3 {
   white-space: nowrap;
 }
 
+.cartao-topo {
+  display: flex;
+  align-items: baseline;
+  gap: var(--espaco-1);
+}
+
+.cartao-topo h3 {
+  flex: 1;
+}
+
+.prioridade {
+  flex: none;
+}
+
 form {
   display: flex;
   flex-direction: column;
