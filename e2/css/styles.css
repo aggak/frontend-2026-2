@@ -35,6 +35,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: var(--espaco-1);
+  min-width: 0;
 }
 
 [data-status="a-fazer"] {
