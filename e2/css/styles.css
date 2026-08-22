@@ -99,6 +99,11 @@ form {
   gap: var(--espaco-1);
 }
 
+input[type="radio"] {
+  width: 24px;
+  height: 24px;
+}
+
 :focus-visible {
   outline: 2px solid var(--cor-status-em-andamento);
   outline-offset: 2px;
