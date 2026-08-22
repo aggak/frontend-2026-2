@@ -1,6 +1,18 @@
 :root {
   --cor-texto: #333;
+  --cor-fundo: #f5f5f5;
+  --cor-superficie: #fff;
+  --cor-borda: #ccc;
+  --cor-status-a-fazer: #6b7280;
+  --cor-status-em-andamento: #2563eb;
+  --cor-status-em-revisao: #d97706;
+  --cor-status-concluida: #16a34a;
+  --espaco-1: 0.5rem;
+  --espaco-2: 1rem;
+  --espaco-3: 2rem;
+  --raio: 8px;
 }
 body {
   color: var(--cor-texto);
+  background-color: var(--cor-fundo);
 }
