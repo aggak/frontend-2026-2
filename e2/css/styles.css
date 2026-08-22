@@ -75,3 +75,10 @@ ul {
 .prazo {
   margin-top: auto;
 }
+
+h3 {
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
