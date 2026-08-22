@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Quadro Acadêmico — Tarefas de projetos</title>
+  </head>
+  <body>
+    <header>
+      <h1>Quadro Acadêmico</h1>
+    </header>
+    <main>
+      <form>
+        <h2>Busca e filtros</h2>
+        <label for="busca-titulo">Buscar por título</label>
+        <input type="search" id="busca-titulo" />
+        <label for="filtro-status">Filtrar por status</label>
+        <select id="filtro-status">
+          <option value="">Todos</option>
+          <option value="a-fazer">A fazer</option>
+          <option value="em-andamento">Em andamento</option>
+          <option value="em-revisao">Em revisão</option>
+          <option value="concluida">Concluída</option>
+        </select>
+        <fieldset>
+          <legend>Prioridade</legend>
+
+          <input
+            type="radio"
+            name="prioridade"
+            id="prioridade-baixa"
+            value="baixa"
+          />
+          <label for="prioridade-baixa">Baixa</label>
+          <input
+            type="radio"
+            name="prioridade"
+            id="prioridade-media"
+            value="media"
+          />
+          <label for="prioridade-media">Média</label>
+          <input
+            type="radio"
+            name="prioridade"
+            id="prioridade-alta"
+            value="alta"
+          />
+          <label for="prioridade-alta">Alta</label>
+        </fieldset>
+      </form>
+      <section aria-labelledby="status-a-fazer">
+        <h2 id="status-a-fazer">A fazer</h2>
+        <ul>
+          <li>
+            <article>
+              <h3>Revisar a aula de hoje</h3>
+              <p>Projeto: Desenvolvimento FrontEnd</p>
+              <p>Responsável: Línnek Araújo</p>
+              <p>Prazo: 11/08/2026</p>
+              <p>Prioridade: Alta</p>
+            </article>
+          </li>
+          <li>
+            <article>
+              <h3>Estudar para o questionário Q1</h3>
+              <p>Projeto: Desenvolvimento FrontEnd</p>
+              <p>Responsável: Línnek Araújo</p>
+              <p>Prazo: 12/08/2026</p>
+              <p>Prioridade: Média</p>
+            </article>
+          </li>
+        </ul>
+      </section>
+      <section aria-labelledby="status-em-andamento">
+        <h2 id="status-em-andamento">Em andamento</h2>
+        <ul>
+          <li>
+            <article>
+              <h3>Entrega de atividade anterior</h3>
+              <p>Projeto: Banco de dados</p>
+              <p>Responsável: Línnek Araújo</p>
+              <p>Prazo: 20/08/2026</p>
+              <p>Prioridade: Alta</p>
+            </article>
+          </li>
+          <li>
+            <article>
+              <h3>Normalizar tabelas até a 3FN</h3>
+              <p>Projeto: Banco de dados</p>
+              <p>Responsável: Línnek Araújo</p>
+              <p>Prazo: 18/08/2026</p>
+              <p>Prioridade: Média</p>
+            </article>
+          </li>
+        </ul>
+      </section>
+      <section aria-labelledby="status-em-revisao">
+        <h2 id="status-em-revisao">Em revisão</h2>
+        <ul>
+          <li>
+            <article>
+              <h3>Diagrama entidade-relacionamento</h3>
+              <p>Projeto: Banco de dados</p>
+              <p>Responsável: Línnek Araújo</p>
+              <p>Prazo: 14/08/2026</p>
+              <p>Prioridade: Média</p>
+            </article>
+          </li>
+          <li>
+            <article>
+              <h3>Corrigir consultas SQL da lista 2</h3>
+              <p>Projeto: Banco de dados</p>
+              <p>Responsável: Línnek Araújo</p>
+              <p>Prazo: 16/08/2026</p>
+              <p>Prioridade: Baixa</p>
+            </article>
+          </li>
+        </ul>
+      </section>
+      <section aria-labelledby="status-concluida">
+        <h2 id="status-concluida">Concluída</h2>
+        <ul>
+          <li>
+            <article>
+              <h3>Configurar repositório da disciplina</h3>
+              <p>Projeto: Desenvolvimento FrontEnd</p>
+              <p>Responsável: Línnek Araújo</p>
+              <p>Prazo: 30/07/2026</p>
+              <p>Prioridade: Baixa</p>
+            </article>
+          </li>
+          <li>
+            <article>
+              <h3>Ler os capítulos indicados na aula 1</h3>
+              <p>Projeto: Desenvolvimento FrontEnd</p>
+              <p>Responsável: Línnek Araújo</p>
+              <p>Prazo: 29/07/2026</p>
+              <p>Prioridade: Alta</p>
+            </article>
+          </li>
+        </ul>
+      </section>
+    </main>
+    <footer>
+      <p>Línnek Araújo - Desenvolvimento FrontEnd, 2026.2</p>
+    </footer>
+  </body>
+</html>
