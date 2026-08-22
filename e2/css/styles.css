@@ -51,3 +51,11 @@ body {
 [data-status="concluida"] {
   --cor-status: var(--cor-status-concluida);
 }
+
+article {
+  background-color: var(--cor-superficie);
+  border: 1px solid var(--cor-borda);
+  border-left: 4px solid var(--cor-status);
+  border-radius: var(--raio);
+  padding: var(--espaco-2);
+}
