@@ -1,3 +1,9 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 :root {
   --cor-texto: #333;
   --cor-fundo: #f5f5f5;
@@ -12,6 +18,7 @@
   --espaco-3: 2rem;
   --raio: 8px;
 }
+
 body {
   color: var(--cor-texto);
   background-color: var(--cor-fundo);
