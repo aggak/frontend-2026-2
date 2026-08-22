@@ -1,0 +1,6 @@
+:root {
+  --cor-texto: #333;
+}
+body {
+  color: var(--cor-texto);
+}
