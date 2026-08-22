@@ -29,3 +29,9 @@ body {
   gap: var(--espaco-2);
   padding: var(--espaco-2);
 }
+
+[data-status] {
+  display: flex;
+  flex-direction: column;
+  gap: var(--espaco-1);
+}
