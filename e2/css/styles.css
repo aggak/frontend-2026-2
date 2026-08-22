@@ -108,4 +108,7 @@ form {
     flex-wrap: wrap;
     align-items: center;
   }
+  h2 {
+    width: 100%;
+  }
 }
