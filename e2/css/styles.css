@@ -99,6 +99,11 @@ form {
   gap: var(--espaco-1);
 }
 
+:focus-visible {
+  outline: 2px solid var(--cor-status-em-andamento);
+  outline-offset: 2px;
+}
+
 /* Ponto de quebra: acima de 700px o campo de busca fica mais largo
    que qualquer título de tarefa, desperdiçando espaço horizontal.
    Os controles passam a ficar lado a lado. */
