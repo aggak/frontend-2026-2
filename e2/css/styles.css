@@ -98,3 +98,14 @@ form {
   flex-direction: column;
   gap: var(--espaco-1);
 }
+
+/* Ponto de quebra: acima de 700px o campo de busca fica mais largo
+   que qualquer título de tarefa, desperdiçando espaço horizontal.
+   Os controles passam a ficar lado a lado. */
+@media (min-width: 700px) {
+  form {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+}
