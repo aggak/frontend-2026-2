@@ -118,7 +118,7 @@ input[type="radio"] {
     flex-wrap: wrap;
     align-items: center;
   }
-  h2 {
+  form h2 {
     width: 100%;
   }
 }
