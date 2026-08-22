@@ -35,3 +35,19 @@ body {
   flex-direction: column;
   gap: var(--espaco-1);
 }
+
+[data-status="a-fazer"] {
+  --cor-status: var(--cor-status-a-fazer);
+}
+
+[data-status="em-andamento"] {
+  --cor-status: var(--cor-status-em-andamento);
+}
+
+[data-status="em-revisao"] {
+  --cor-status: var(--cor-status-em-revisao);
+}
+
+[data-status="concluida"] {
+  --cor-status: var(--cor-status-concluida);
+}
