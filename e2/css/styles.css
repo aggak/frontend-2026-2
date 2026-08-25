@@ -38,19 +38,19 @@ body {
   min-width: 0;
 }
 
-[data-status="a-fazer"] {
+[data-status='a-fazer'] {
   --cor-status: var(--cor-status-a-fazer);
 }
 
-[data-status="em-andamento"] {
+[data-status='em-andamento'] {
   --cor-status: var(--cor-status-em-andamento);
 }
 
-[data-status="em-revisao"] {
+[data-status='em-revisao'] {
   --cor-status: var(--cor-status-em-revisao);
 }
 
-[data-status="concluida"] {
+[data-status='concluida'] {
   --cor-status: var(--cor-status-concluida);
 }
 
@@ -113,7 +113,12 @@ form {
   gap: var(--espaco-1);
 }
 
-input[type="radio"] {
+input[type='search'],
+select {
+  min-height: 24px;
+}
+
+input[type='radio'] {
   width: 24px;
   height: 24px;
 }
