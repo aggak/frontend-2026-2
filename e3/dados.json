@@ -1,0 +1,76 @@
+{
+  "tarefas": [
+    {
+      "id": 1,
+      "titulo": "Revisar a aula de hoje",
+      "projeto": "Desenvolvimento FrontEnd",
+      "responsavel": "Línnek Araújo",
+      "status": "a-fazer",
+      "prioridade": "alta",
+      "prazo": "2026-08-11"
+    },
+    {
+      "id": 2,
+      "titulo": "Estudar para o questionário Q1",
+      "projeto": "Desenvolvimento FrontEnd",
+      "responsavel": "Línnek Araújo",
+      "status": "a-fazer",
+      "prioridade": "media",
+      "prazo": "2026-08-12"
+    },
+    {
+      "id": 3,
+      "titulo": "Entrega de atividade anterior",
+      "projeto": "Banco de dados",
+      "responsavel": "Línnek Araújo",
+      "status": "em-andamento",
+      "prioridade": "alta",
+      "prazo": "2026-08-20"
+    },
+    {
+      "id": 4,
+      "titulo": "Normalizar tabelas até a 3FN",
+      "projeto": "Banco de dados",
+      "responsavel": "Línnek Araújo",
+      "status": "em-andamento",
+      "prioridade": "media",
+      "prazo": "2026-08-18"
+    },
+    {
+      "id": 5,
+      "titulo": "Diagrama entidade-relacionamento",
+      "projeto": "Banco de dados",
+      "responsavel": "Línnek Araújo",
+      "status": "em-revisao",
+      "prioridade": "media",
+      "prazo": "2026-08-14"
+    },
+    {
+      "id": 6,
+      "titulo": "Corrigir consultas SQL da lista 2",
+      "projeto": "Banco de dados",
+      "responsavel": "Línnek Araújo",
+      "status": "em-revisao",
+      "prioridade": "baixa",
+      "prazo": "2026-08-16"
+    },
+    {
+      "id": 7,
+      "titulo": "Configurar repositório da disciplina",
+      "projeto": "Desenvolvimento FrontEnd",
+      "responsavel": "Línnek Araújo",
+      "status": "concluida",
+      "prioridade": "baixa",
+      "prazo": "2026-07-30"
+    },
+    {
+      "id": 8,
+      "titulo": "Ler os capítulos indicados na aula 1",
+      "projeto": "Desenvolvimento FrontEnd",
+      "responsavel": "Línnek Araújo",
+      "status": "concluida",
+      "prioridade": "alta",
+      "prazo": "2026-07-29"
+    }
+  ]
+}
