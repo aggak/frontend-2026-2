@@ -1,0 +1,1 @@
+function renderizarTarefas(tarefas, quadro) {}
