@@ -1,1 +1,3 @@
-import { criarCartao } from './renderizacao.js';
+import { criarCartao, renderizarTarefas } from './renderizacao.js';
+
+const quadro = document.querySelector('.quadro');

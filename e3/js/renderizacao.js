@@ -28,3 +28,13 @@ export function criarCartao(tarefa) {
 
   return cartao;
 }
+
+export function renderizarTarefas(tarefas, quadro) {
+  const listas = quadro.querySelectorAll('[data-lista-status]');
+  for (const lista of listas) {
+    const status = lista.dataset.listaStatus;
+    const tarefasDoStatus = tarefas.filter(
+      (tarefa) => tarefa.status === status,
+    );
+  }
+}
