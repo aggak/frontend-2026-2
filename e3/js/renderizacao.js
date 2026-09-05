@@ -17,5 +17,14 @@ function criarCartao(tarefa) {
   projeto.textContent = tarefa.projeto;
   cartao.append(projeto);
 
+  const responsavel = document.createElement('p');
+  responsavel.textContent = tarefa.responsavel;
+  cartao.append(responsavel);
+
+  const prazo = document.createElement('p');
+  prazo.className = 'prazo';
+  prazo.textContent = tarefa.prazo;
+  cartao.append(prazo);
+
   return cartao;
 }
