@@ -1,4 +1,4 @@
-function criarCartao(tarefa) {
+export function criarCartao(tarefa) {
   const titulo = document.createElement('h3');
   titulo.textContent = tarefa.titulo;
 
