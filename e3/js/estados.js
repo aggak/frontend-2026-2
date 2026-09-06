@@ -22,4 +22,7 @@ export function renderizarEstado(estado, dados) {
   if (estado === "vazio") {
     mensagem.textContent = "Nenhuma tarefa encontrada.";
   }
+  if (estado === "erro") {
+    mensagem.textContent = dados.message;
+  }
 }

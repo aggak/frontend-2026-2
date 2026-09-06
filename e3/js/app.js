@@ -6,11 +6,23 @@ const quadro = document.querySelector(".quadro");
 
 async function iniciar() {
   renderizarEstado("carregando", []);
-  const tarefas = await carregarTarefas();
-  if (tarefas.length === 0) {
-    renderizarEstado("vazio", tarefas);
-  } else {
-    renderizarEstado("sucesso", tarefas);
+
+  try {
+    const tarefas = await carregarTarefas();
+    if (tarefas.length === 0) {
+      renderizarEstado("vazio", tarefas);
+    } else {
+      renderizarEstado("sucesso", tarefas);
+    }
+  } catch (erro) {
+    if (erro.name === "TypeError") {
+      erro.message =
+        "Não foi possível carregar as tarefas. Verifique sua conexão.";
+    } else if (erro.name === "SyntaxError") {
+      erro.message = "O arquivo de tarefas contém um JSON inválido.";
+    }
+    renderizarEstado("erro", erro);
   }
 }
+
 iniciar();
