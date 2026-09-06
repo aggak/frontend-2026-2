@@ -36,5 +36,16 @@ export function renderizarTarefas(tarefas, quadro) {
     const tarefasDoStatus = tarefas.filter(
       (tarefa) => tarefa.status === status,
     );
+
+    const itens = tarefasDoStatus.map((tarefa) => {
+      const item = document.createElement('li');
+      const cartao = criarCartao(tarefa);
+
+      item.append(cartao);
+
+      return item;
+    });
+
+    lista.replaceChildren(...itens);
   }
 }
