@@ -19,4 +19,7 @@ export function renderizarEstado(estado, dados) {
     renderizarTarefas(dados, quadro);
     mensagem.textContent = "Tarefas carregadas: " + dados.length;
   }
+  if (estado === "vazio") {
+    mensagem.textContent = "Nenhuma tarefa encontrada.";
+  }
 }

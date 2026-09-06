@@ -7,6 +7,10 @@ const quadro = document.querySelector(".quadro");
 async function iniciar() {
   renderizarEstado("carregando", []);
   const tarefas = await carregarTarefas();
-  renderizarEstado("sucesso", tarefas);
+  if (tarefas.length === 0) {
+    renderizarEstado("vazio", tarefas);
+  } else {
+    renderizarEstado("sucesso", tarefas);
+  }
 }
 iniciar();
